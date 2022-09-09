@@ -1,0 +1,1 @@
+This directory contains my answers to the 0x01. C - Variables, if, else, while project.
