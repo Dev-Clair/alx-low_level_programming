@@ -1,15 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - 
- * *
- * Return (0) - Always Sucess
+ * print_sign - prints the sign of a number
+ * @n: the int to check
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
-
-int main(void)
+int print_sign(int n)
 {
-	/* Code goes here */
-	printf("Hello World\n");
-	Return (0);
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	} else if (n == 0)
+	{
+		_putchar('-');
+	}
+		return (-1);
 }
