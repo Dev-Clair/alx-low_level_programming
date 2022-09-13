@@ -1,15 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - 
- * *
- * Return (0) - Always Sucess
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	/* Code goes here */
-	printf("Hello World\n");
-	Return (0);
+	char al;
+	int i;
+
+	i = 0;
+
+	while (i < 10)
+		{
+		al = 'a';
+			while (al <= 'z')
+			{
+				_putchar(al);
+				al++;
+			}
+
+			_putchar('\n');
+			i++;
+		}
 }
