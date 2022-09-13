@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - 
- * *
- * Return (0) - Always Sucess
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
  */
 
-int main(void)
+int _isalpha(int c)
 {
-	/* Code goes here */
-	printf("Hello World\n");
-	Return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
