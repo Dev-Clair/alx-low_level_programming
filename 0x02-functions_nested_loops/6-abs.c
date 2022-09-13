@@ -1,15 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - 
- * *
- * Return (0) - Always Sucess
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
 
-int main(void)
+int _abs(int n)
 {
-	/* Code goes here */
-	printf("Hello World\n");
-	Return (0);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
