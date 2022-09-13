@@ -1,15 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - 
- * *
- * Return (0) - Always Sucess
+ * print_alphabet - Prints the alphabet in lowercase.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	/* Code goes here */
-	printf("Hello World\n");
-	Return (0);
+	char al;
+
+	al = 'a';
+
+	while (al <= 'z')
+	{
+		_putchar(al);
+		al++;
+	}
+	_putchar('\n');
 }
