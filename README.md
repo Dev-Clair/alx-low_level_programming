@@ -1,0 +1,1 @@
+This repo contains my projects on C programming introduction.
